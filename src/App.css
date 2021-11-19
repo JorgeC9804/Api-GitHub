@@ -17,17 +17,19 @@
   padding: 8px 26px;
   box-sizing: border-box;
 }
+  
 /*================================ Avatar ==================================*/
 .flex {
   display: flex;
 }
 /*=================================== Color button ===================================*/
 .btn {
-  position: relative;
-  right: -70%;
+  position: absolute;
+  left: 80%;
   font-size: 15px;
   border: 1px solid;
   padding: 5px;
+  
 }
 /*=================================== Principal Cart ===================================*/
 .principal-cart {
