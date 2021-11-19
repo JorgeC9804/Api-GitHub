@@ -1,0 +1,75 @@
+.input-search {
+  border: 1px solid rgba(128, 128, 128, 0.884);
+  border-right: 0px;
+  padding: 6px 16px 6px;
+  outline-width: 0;
+  font-size: 17px;
+}
+.input-submit {
+  border: 1px solid rgba(128, 128, 128, 0.884);
+  padding: 6px 16px 6px;
+  border-left: 0px;
+  font-size: 17px;
+}
+/*================================ Header ==================================*/
+.text {
+  font-size: xx-large;
+  padding: 8px 26px;
+  box-sizing: border-box;
+}
+/*================================ Avatar ==================================*/
+.flex {
+  display: flex;
+}
+/*=================================== Color button ===================================*/
+.btn {
+  position: relative;
+  right: -70%;
+  font-size: 15px;
+  border: 1px solid;
+  padding: 5px;
+}
+/*=================================== Principal Cart ===================================*/
+.principal-cart {
+  box-shadow: 10px 10px 20px rgb(31, 28, 21);
+  border-radius: 15px;
+  width: 500px;
+  height: 420px;
+  padding: 17px;
+  box-sizing: border-box;
+}
+.information-found {
+  display: flex;
+  position: relative;
+  top: 15px;
+  
+}
+.d-flex {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+/*=================================== Link ======================================*/
+.link {
+  border: 1px solid rgba(128, 128, 128, 0.616); 
+  width: 125px;
+  padding: 5px;
+  margin: 8px;
+  border-radius: 4px;
+}
+.link:hover {
+  background-color: rgba(252, 27, 76, 0.918);
+}
+.sec-link {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.link-img {
+  border-radius: 50%;
+  width: 250px; 
+  height: 250px;
+}
+.link-img:hover {
+  border-radius: 45%;
+}

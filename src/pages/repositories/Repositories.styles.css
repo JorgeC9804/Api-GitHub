@@ -1,0 +1,26 @@
+.title {
+    font-size: 35px;
+    padding: 23px;
+    color: rgb(207, 160, 4);
+}
+.repositories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.repository {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 100px;
+    margin: 45px;
+    font-size: 18px;
+    box-shadow: 5px 5px 10px;
+    background-color: rgb(255, 238, 200);
+    border-radius: 5px;
+}
+.repository:hover {
+    background-color: rgb(255, 225, 142);
+    border-radius: 10px;
+}
