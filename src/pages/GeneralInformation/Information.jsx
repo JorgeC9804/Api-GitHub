@@ -15,11 +15,17 @@ const Information = ({information}) => {
                 {bio} <br />
                 {name} <br />
                 {login} <br />
-                <Link to={`/followers/${login}`}>
-                    followers {followers} <br />
-                </Link>
-                follogin {following} <br />
-                repos {public_repos}
+                <section className='sec-links'>
+                    <Link to={`/followers/${login}`}>
+                        <div className='link-d flex'>followers {followers} </div>
+                    </Link>
+                    <div className='link-d flex'>
+                        follogin {following} <br />
+                    </div>
+                    <Link to={`/repositories/:${login}`}>
+                        <div className='link-d flex'>repos {public_repos} </div>
+                    </Link>     
+                </section>       
             </section>
         </div>
     )
